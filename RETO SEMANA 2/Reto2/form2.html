@@ -2,11 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form 2 | Reto 2</title>
+    <link rel="stylesheet" href="./form2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <section class="form-signup">
+        <form>
+            <h2>Sign Up</h2>
+
+            <label class="etiquetas" for="fname">First Name</label>
+            <br>
+            <input class="form-data" type="text" id="fname">
+
+            <br>
+
+            <label class="etiquetas" for="age">Age</label>
+            <br>
+            <input class="form-data" type="number" id="age">
+
+            <br>
+
+            <label class="etiquetas" for="income">Income</label>
+            <br>
+            <input class="form-data" type="number" id="income">
+
+            <br>
+
+            <label class="etiquetas" for="m-info">More Info</label>
+            <br>
+            <textarea class="form-data" id="m-info" cols="40" rows="3"></textarea>
+
+            <br>
+
+            <label class="etiquetas">Gender</label>
+            <br>
+
+            <input class="opciones-genero" type="radio" name="gender" value="M" id="male">
+            <label for="male">Male</label>
+
+            <input class="opciones-genero" type="radio" name="gender" value="F" id="female">
+            <label for="female">Female</label>
+
+            <input class="opciones-genero" type="radio" name="gender" value="T" id="trans">
+            <label for="trans">Trans</label>
+
+            <br><br>
+
+            <label class="etiquetas" for="plan">Plan</label>
+            <br>
+            <select class="opcion-plan" id="plan">
+                <option selected disabled>Select Plan</option>
+                <option value="B">Basic</option>
+                <option value="S">Silver</option>
+                <option value="G">Gold</option>
+            </select>
+
+            <br>
+
+            <input class="etiqueta-subscribe" type="checkbox" id="subscribe">
+            <label class="etiqueta-subscribe" for="subscribe">Subscribe to Newsletter</label>
+            
+            <br><br>
+
+            <input class="form-send" type="submit" value="Update">
+        </form>
+    </section>
 </body>
 </html>

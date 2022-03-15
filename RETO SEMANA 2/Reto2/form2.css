@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-signup {
+    font-family: 'Dosis', sans-serif;
+    background-color: rgb(240, 242, 243);
+    width: 400px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+
+}
+
+.form-signup h2 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.etiquetas {
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    margin-left: 12px ;
+}
+
+.form-data {
+    font-family: 'Dosis', sans-serif;
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-left: 12px 
+}
+
+.opcion-plan {
+    font-family: 'Dosis', sans-serif;
+    width: 97%;
+    padding: 7px;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-left: 10px 
+}
+
+.opciones-genero {
+    margin-left: 12px   
+}
+
+.etiqueta-subscribe {
+    font-family: 'Dosis', sans-serif;
+    margin-left: 12px 
+}
+
+.form-send {
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: #1248ad;
+    width: 80px;
+    padding: 6px;
+    border: 0px;
+    border-radius: 8px;
+    margin-top: 8px;
+    margin-left: 12px 
+}
