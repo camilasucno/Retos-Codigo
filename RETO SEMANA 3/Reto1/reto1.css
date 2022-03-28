@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 800px;
+    height: 500px;
+    /* border: 1px solid blue; */
+}
+
+.contenedor-principal {
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.first-icon {
+    width: 160px;
+    height: 170px;
+    padding: 50px ;
+    background-color: #0d1c23 ;
+    color: #88bcd2;
+    text-align: center;
+}
+ .fa-solid {
+    margin-bottom: 15px;
+}
+
+.fa-brands {
+    margin-bottom: 15px;
+}
+
+/* .contenedor-secundario {
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.second-icon {
+    width: 80px;
+    height: 80px;
+    padding: 30px ;
+    background-color: #88bcd2;
+    color: #0d1c23;
+    text-align: center ;
+    
+} */
