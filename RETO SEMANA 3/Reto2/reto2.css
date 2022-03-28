@@ -9,6 +9,7 @@ header {
     color: white;
     width: 100%;
     height: 200px;
+    font-family: 'Source Sans Pro', sans-serif;
     /* position: relative; */
 }
 
@@ -30,9 +31,63 @@ button {
     background-color: gray;
     color: white;
     padding: 10px 20px;
+    align-items: center;
+    margin-left: 700px;
+    margin-top: 15px;
+    font-weight: bold;
 }
 
-.conteneddor {
+main{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.contenedor {
     display: flex;
+    /* max-width: 1000px; */
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.contenedor-descripcion {
+    border: 1px solid rgb(235, 235, 235) ;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px;
+    margin: 7px;
     
+}
+
+.contenedor-descripcion h5 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.fa-brands {
+    margin-bottom: 20px;
+    font-size: 100px;
+}
+
+.fa-desktop {
+    margin-bottom: 20px;
+    font-size: 100px;
+}
+
+.fa-regular {
+    margin-bottom: 20px;
+    font-size: 100px;
+}
+
+@media screen and (max-width: 480px) {
+    main {
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .contenedor-descripcion {
+        width: 250px;
+        padding: 20px 0px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
 }
